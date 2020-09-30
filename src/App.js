@@ -5,7 +5,7 @@ import "./App.css";
 
 import { Switch, Route } from "react-router-dom";
 
-import Head from "./Components/Header/Head";
+import Head from "./Components/Head/Head";
 import Main from "./Components/Main/Main";
 import Foot from "./Components/Foot/Foot";
 

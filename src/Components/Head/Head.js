@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../media/F-Liste Logo v5 bunt.png";
+import "./Head.css" 
 
 export class Header extends Component {
   render() {
@@ -8,7 +9,7 @@ export class Header extends Component {
       <header className="head">
         <div className="head-left">
           <Link to="/">
-            <img className="logo" src={logo} alt="logo_header" height="50px" />
+            <img className="logo" src={logo} alt="logo_header" />
           </Link>
         </div>
         <nav className="head-right">
