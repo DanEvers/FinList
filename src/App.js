@@ -7,7 +7,7 @@ import { Switch, Route } from "react-router-dom";
 
 import Head from "./Components/Header/Head";
 import Main from "./Components/Main/Main";
-import Footer from "./Components/Footer/Footer";
+import Foot from "./Components/Foot/Foot";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Route exact path="/" component={Main}/>
       {/* <Route path="/Header" component={Head}/> */}
     </Switch>
-    <Footer />
+    <Foot />
   </div>
   );
 }
